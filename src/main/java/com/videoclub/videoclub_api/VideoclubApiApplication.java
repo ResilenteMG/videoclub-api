@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class VideoclubApiApplication {
 
 	public static void main(String[] args) {
-		//SpringApplication.run(VideoclubApiApplication.class, args);
+		SpringApplication.run(VideoclubApiApplication.class, args);
 		System.out.println("Hello World - El sistema funciona");
 	}
 
