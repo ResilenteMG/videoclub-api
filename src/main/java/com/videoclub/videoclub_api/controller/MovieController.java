@@ -9,7 +9,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/peliculas")
-@CrossOrigin(origins = "*") // Importante para que React pueda conectar sin errores
+@CrossOrigin(origins = "*", allowedHeaders = "*")
 public class MovieController {
 
     @Autowired

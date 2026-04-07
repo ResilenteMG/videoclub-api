@@ -17,6 +17,7 @@ public class Movie {
     private int ano;
     private String director;
 
+
     public int getRango() {
         return rango;
     }
@@ -57,13 +58,13 @@ public class Movie {
         this.director = director;
     }
 
-    public List<String> getCastingPrincipal() {
-        return castingPrincipal;
-    }
+    //public List<String> getCastingPrincipal() {
+        //return castingPrincipal;
 
-    public void setCastingPrincipal(List<String> castingPrincipal) {
-        this.castingPrincipal = castingPrincipal;
-    }
+
+    //public void setCastingPrincipal(List<String> castingPrincipal) {
+       // this.castingPrincipal = castingPrincipal;
+
 
     public int getPuntuacionAfinidad() {
         return puntuacionAfinidad;
@@ -113,8 +114,8 @@ public class Movie {
         this.categoria = categoria;
     }
 
-    @ElementCollection
-    private List<String> castingPrincipal;
+    //@ElementCollection
+    //private List<String> castingPrincipal;
 
     @Column(name = "puntuacion_afinidad")
     private int puntuacionAfinidad;
